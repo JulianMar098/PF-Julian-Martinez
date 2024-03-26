@@ -200,6 +200,7 @@ ul li a{
 
 .acerca_nosotros{
     text-align: center;
+    display: flex;
 }
 
 .acerca_de_nosotros_texto_uno{
@@ -220,6 +221,7 @@ ul li a{
 
 .acerca_nosotros_dos{
     text-align: center;
+    display: flex;
 }
 
 .acerca_de_nosotros_texto_dos{
