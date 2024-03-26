@@ -135,7 +135,6 @@ header nav a{
 
 .descripcion_main{
     text-align: center;
-    margin: 200px;
 }
 
 .textos_main{
@@ -205,9 +204,7 @@ ul li a{
 
 .acerca_de_nosotros_texto_uno{
     display: inline-block;
-    width: 600px;
     vertical-align: top;
-    position: relative;
     bottom: -100px;
 }
 
@@ -227,9 +224,7 @@ ul li a{
 
 .acerca_de_nosotros_texto_dos{
     display: inline-block;
-    width: 600px;
     vertical-align: top;
-    position: relative;
     bottom: -150px;
 }
 
@@ -461,6 +456,24 @@ footer{
 }
 
 /* Media Queries */
+@media (max-width:1024px){
+    .foto_acerca_de_nosotros{
+        width: 100%;
+        height: auto;
+    }
+    .foto_acerca_de_nosotros_dos{
+        width: 100%;
+        height: auto;
+    }
+    .acerca_de_nosotros_texto_uno{
+        position: static;
+        width: auto;
+    }
+    .acerca_de_nosotros_texto_dos{
+        position: static;
+        width: auto;
+    }
+    }
 
 @media(min-width:1024px) and (max-width:1440px){
     .descripcion_main{
@@ -485,6 +498,7 @@ footer{
         flex-direction: column;
         font-size: 15px;
         position: static;
+        width:600px;
     }
     .foto_acerca_de_nosotros,
     .foto_acerca_de_nosotros_dos{
@@ -492,7 +506,9 @@ footer{
         width: 300px;
         height: 300px;
         position: static;
+        
     }
+    .foto_acerca_de_nosotros
 }
 
 @media(min-width:768px) and (max-width:1024px){
