@@ -342,7 +342,7 @@ footer {
     width: 300px;
   }
 }
-@media (min-width: 1440px) and (max-width: 2000) {
+@media (min-width: 1440px) and (max-width: 2000px) {
   .producto_versace_eros_descripcion,
   .producto_212_descripcion,
   .producto_calvin_klein_descripcion,
@@ -410,7 +410,7 @@ footer {
   .producto_invictus_elixir_parfum_descripcion,
   .producto_one_million_descripcion,
   .producto_y_ves_saint_laurent_descripcion {
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
     max-width: 90%;
   }
   .texto_producto_versace_eros,
