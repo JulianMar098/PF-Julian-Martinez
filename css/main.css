@@ -321,6 +321,7 @@ footer {
   .producto_one_million_descripcion,
   .producto_y_ves_saint_laurent_descripcion {
     grid-template-columns: 1fr;
+    max-width: 90%;
   }
   .texto_producto_versace_eros,
   .texto_producto_y_ves_saint_laurent,
@@ -349,7 +350,7 @@ footer {
   .producto_invictus_elixir_parfum_descripcion,
   .producto_one_million_descripcion,
   .producto_y_ves_saint_laurent_descripcion {
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: 1fr 1fr;
     max-width: 100%;
   }
   .texto_producto_versace_eros,
@@ -410,8 +411,8 @@ footer {
   .producto_invictus_elixir_parfum_descripcion,
   .producto_one_million_descripcion,
   .producto_y_ves_saint_laurent_descripcion {
-    grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
-    max-width: 90%;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
   }
   .texto_producto_versace_eros,
   .texto_producto_y_ves_saint_laurent,
