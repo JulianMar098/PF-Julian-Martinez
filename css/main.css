@@ -47,7 +47,11 @@ body {
 }
 
 .ul_style {
-  background-color: rgb(200, 233, 109);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  gap: 5px;
 }
 
 .a_style {

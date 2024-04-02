@@ -5,7 +5,11 @@
     font-family: Roboto Mono;
 }
 .ul_style{
-    background-color: $background-color-tertiary;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 5px;
 }
 .a_style{
     background-color: $background-color-tertiary;
