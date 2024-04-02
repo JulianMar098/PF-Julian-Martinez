@@ -516,7 +516,69 @@ footer{
         position: static;
         width: auto;
     }
+    .producto_versace_eros_descripcion, 
+    .producto_212_descripcion, 
+    .producto_calvin_klein_descripcion, 
+    .producto_invictus_elixir_parfum_descripcion, 
+    .producto_one_million_descripcion, 
+    .producto_y_ves_saint_laurent_descripcion {
+        grid-template-columns: 1fr; 
     }
+
+    .texto_producto_versace_eros, 
+    .texto_producto_y_ves_saint_laurent, 
+    .texto_producto_one_million_edt, 
+    .texto_producto_invictus_elixir, 
+    .texto_producto_calvin_klein_unisex, 
+    .texto_producto_212_edt {
+        position: static;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .foto_y_ves_saint_laurent_producto, 
+    .foto_versace_eros_producto, 
+    .foto_one_millon_producto, 
+    .foto_invictus_elixir_producto, 
+    .foto_calvin_klein_unisex_producto, 
+    .foto_212_producto {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (min-width:1440px) and (max-width:2000){
+    .producto_versace_eros_descripcion, 
+    .producto_212_descripcion, 
+    .producto_calvin_klein_descripcion, 
+    .producto_invictus_elixir_parfum_descripcion, 
+    .producto_one_million_descripcion, 
+    .producto_y_ves_saint_laurent_descripcion {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        max-width: 100%;
+    }
+
+    .texto_producto_versace_eros, 
+    .texto_producto_y_ves_saint_laurent, 
+    .texto_producto_one_million_edt, 
+    .texto_producto_invictus_elixir, 
+    .texto_producto_calvin_klein_unisex, 
+    .texto_producto_212_edt {
+        margin: 20px;
+        padding: 20px; 
+        position: static;
+    }
+
+    .foto_y_ves_saint_laurent_producto, 
+    .foto_versace_eros_producto, 
+    .foto_one_millon_producto, 
+    .foto_invictus_elixir_producto, 
+    .foto_calvin_klein_unisex_producto, 
+    .foto_212_producto {
+        height: 300px;
+        width: 300px;
+    }
+}
 
 @media(min-width:1024px) and (max-width:1440px){
     .descripcion_main{
@@ -550,6 +612,36 @@ footer{
         height: 300px;
         position: static;
         
+    }
+    .producto_versace_eros_descripcion, 
+    .producto_212_descripcion, 
+    .producto_calvin_klein_descripcion, 
+    .producto_invictus_elixir_parfum_descripcion, 
+    .producto_one_million_descripcion, 
+    .producto_y_ves_saint_laurent_descripcion {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        max-width: 90%;
+    }
+
+    .texto_producto_versace_eros, 
+    .texto_producto_y_ves_saint_laurent, 
+    .texto_producto_one_million_edt, 
+    .texto_producto_invictus_elixir, 
+    .texto_producto_calvin_klein_unisex, 
+    .texto_producto_212_edt {
+        position: static;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .foto_y_ves_saint_laurent_producto, 
+    .foto_versace_eros_producto, 
+    .foto_one_millon_producto, 
+    .foto_invictus_elixir_producto, 
+    .foto_calvin_klein_unisex_producto, 
+    .foto_212_producto {
+        height: 300px;
+        width: 300px;
     }
 }
 
