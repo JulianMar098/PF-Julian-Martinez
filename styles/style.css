@@ -16,23 +16,24 @@ body{
     min-height: 100vh;
 }
 
-header{
+.header_style{
+    display: flex;
     text-align: center; 
     background-color: beige;
     padding: 1.5%;
     font-family: Roboto Mono;
 }
 
-header nav a{
+.a_style{
     background-color: rgb(200, 233, 109);
 }
 
-a:link{
+.a_style:link{
     color: black;
     text-decoration: none;
 }
 
-a:visited{
+.a_style:visited{
     color: black;
 }
 
@@ -189,6 +190,16 @@ a:visited{
     transition: transform 0.3s ease-in-out;
 }
 
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
 li{
     display:inline-block
 }
@@ -223,14 +234,14 @@ ul li a{
     height: 400px;
 }
 
-.foto_acerca_de_nosotros_dos{
-    width: 400px;
-    height: 400px;
-}
-
 .acerca_nosotros_dos{
     text-align: center;
     display: flex;
+}
+
+.foto_acerca_de_nosotros_dos{
+    width: 400px;
+    height: 400px;
 }
 
 .acerca_de_nosotros_texto_dos{
@@ -451,7 +462,7 @@ textarea {
     border-radius: 10px 10px 10px 10px;
 }
 
-
+/*     HTML de los productos individuales      */
 .producto_versace_eros_descripcion, .producto_212_descripcion, .producto_calvin_klein_descripcion, .producto_invictus_elixir_parfum_descripcion, .producto_one_million_descripcion, .producto_y_ves_saint_laurent_descripcion{
     display: grid;
     grid-template-columns: 1100px 500px;

@@ -1,0 +1,22 @@
+.header_style{
+    text-align: center;
+    background-color: $background-color-secondary;
+    padding: 1.5%;
+    font-family: Roboto Mono;
+}
+.ul_style{
+    background-color: $background-color-tertiary;
+}
+.a_style{
+    background-color: $background-color-tertiary;
+}
+.a_style:link{
+    color: $background-color-fourth;
+    text-decoration: none;
+}
+.a_style:visited{
+    color: $background-color-fourth;
+}
+.titulo_preguntas_frecuentes{
+    text-align: center;
+}

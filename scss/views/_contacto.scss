@@ -1,0 +1,43 @@
+.formulario_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .labels_inputs {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-gap: 20px;
+        align-items: center;
+        background-color: $background-color-fifth;
+        padding: 3%;
+        align-items: start;
+        margin-left: auto;
+        margin-right: auto;
+        .nombre_apellido{
+            grid-column: 1 / span 2;
+        }
+        .email, .mensaje{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .telefono{
+            width: 100%;
+            grid-column: 2 / span 1; 
+        }
+        .email {
+            grid-column: 1 / span 1; 
+        }
+        .mensaje {
+            grid-column: 1 / span 2; 
+        }
+        .mensaje input {
+            display: none;
+        }
+        input[type="text"], input[type="email"], input[type="number"], textarea {
+            width: calc(100% - 40px);
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+    }
+}

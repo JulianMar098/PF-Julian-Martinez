@@ -1,0 +1,14 @@
+.lista_de_marcas{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7%;
+    .foto_calvin_klein, .foto_carolina_herrera, .foto_channel, .foto_dior, .foto_hugo_boss, .foto_kenzo, .foto_paco_rabanne, .foto_tommy_hilfiger, .foto_versace, .foto_yves_saint_laurent, .foto_gucci{
+        background-color: $background-color-fifth;
+        padding: 20px;
+        margin: 30px;
+        height: 250px;
+        width: 250px;
+        border-radius: 10px 10px 10px 10px;
+    }
+}

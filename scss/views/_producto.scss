@@ -1,0 +1,32 @@
+.lista_productos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 2%;
+}
+.productos_perfumes img{
+    height: 350px;
+    width: 350px;
+}
+.productos_perfumes{
+    background-color: $background-color-fifth;
+    padding: 2%; 
+    margin: 3%; 
+    text-align: center;
+    border-radius: 4%;
+}
+.productos_perfumes:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    }
+.productos_perfumes:not(hover){
+    transition: transform 0.3s ease-in-out;
+}
+a:link{
+    color: $background-color-fourth;
+    text-decoration: none;
+}
+a:visited{
+    color: $background-color-fourth;
+        text-decoration: none;
+}

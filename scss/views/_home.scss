@@ -1,0 +1,44 @@
+.Producto_contenedor{ 
+    background: url(../assets/images/Frascos\ de\ fragancias.webp) no-repeat center;
+    height: 100%;
+    .lista_producto{
+        display: flex;
+        flex-direction: row;
+        padding-left: 7%;
+        justify-content: center;
+        align-items: center;
+        .carousel_container{
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            margin: 10%;
+            .producto_uno, .producto_dos, .producto_tres, .producto_cuatro, .producto_cinco, .producto_seis{
+                background-color: $background-color-fifth;
+                padding: 2%; 
+                margin: 3%; 
+                text-align: center;
+                border-radius: 4% 4% 4% 4%;
+                box-sizing: border-box;
+            }
+            .foto_versace_eros_index, .foto_212_index, .foto_saint_laurent_index, .foto_one_million_index, .foto_invictus_elixir_index, .foto_calvin_klein_unisex_index{
+                height: 250px;
+                width: 250px;
+            }
+        }
+    }
+}
+
+.descripcion_main{
+    text-align: center;
+    .textos_main{
+        background-color: $background-color-fifth;
+        padding: 20px;
+        display: inline-block;
+        font-family: Roboto Mono;
+        .main_texto_uno, .main_texto_dos{
+            margin: 10px;
+            padding: 10px;
+        }
+    }
+}

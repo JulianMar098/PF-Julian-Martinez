@@ -1,0 +1,17 @@
+.main_preguntas_frecuentes{
+    padding: 10px;
+    .preguntas_respuestas{
+        text-align: center;
+        font-family: Roboto Mono;
+    }
+    .preguntas_respuestas.left_align{
+        background-color: $background-color-fifth;
+        list-style-position: inside;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+.pregunta_uno, .respuesta_uno, .pregunta_dos, .respuesta_dos, .pregunta_tres, .respuesta_tres{
+    padding: 15px;
+}
+
