@@ -506,7 +506,10 @@ footer {
     position: static;
   }
 }
-@media (min-width: 360px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
+  .ul_style {
+    flex-direction: column;
+  }
   .descripcion_main {
     position: static;
   }
