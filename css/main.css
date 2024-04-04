@@ -169,16 +169,16 @@ a:visited {
   bottom: -100px;
 }
 .main_acerca_nosotros .foto_acerca_de_nosotros {
-  width: 400px;
-  height: 400px;
+  width: 50%;
+  height: 50%;
 }
 .main_acerca_nosotros .acerca_nosotros_dos {
   text-align: center;
   display: flex;
 }
 .main_acerca_nosotros .foto_acerca_de_nosotros_dos {
-  width: 400px;
-  height: 400px;
+  width: 50%;
+  height: 50%;
 }
 .main_acerca_nosotros .acerca_de_nosotros_texto_dos {
   display: inline-block;
@@ -401,8 +401,6 @@ footer {
   .foto_acerca_de_nosotros,
   .foto_acerca_de_nosotros_dos {
     margin: 0 auto;
-    width: 300px;
-    height: 300px;
     position: static;
   }
   .producto_versace_eros_descripcion,
@@ -465,8 +463,6 @@ footer {
   .foto_acerca_de_nosotros,
   .foto_acerca_de_nosotros_dos {
     margin: 0 auto;
-    width: 250px;
-    height: 250px;
     position: static;
   }
 }
@@ -501,8 +497,6 @@ footer {
   .foto_acerca_de_nosotros,
   .foto_acerca_de_nosotros_dos {
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
     position: static;
   }
 }
@@ -536,11 +530,12 @@ footer {
     font-size: 14px;
     position: static;
   }
-  .foto_acerca_de_nosotros,
+  .foto_acerca_de_nosotros {
+    margin: 0 auto;
+    position: static;
+  }
   .foto_acerca_de_nosotros_dos {
     margin: 0 auto;
-    width: 150px;
-    height: 150px;
     position: static;
   }
 }
