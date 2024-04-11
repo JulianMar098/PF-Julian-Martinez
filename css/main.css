@@ -538,6 +538,18 @@ footer {
     margin: 0 auto;
     position: static;
   }
+  .formulario_container .labels_inputs {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+  .formulario_container .labels_inputs .telefono {
+    width: 100%;
+    grid-column: 1/3;
+  }
+  .formulario_container .labels_inputs .email {
+    width: 100%;
+    grid-column: 1/3;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
