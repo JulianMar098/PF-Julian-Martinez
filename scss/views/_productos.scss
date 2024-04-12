@@ -15,3 +15,12 @@
     height: 350px;
     width: 350px;
 }
+.boton_consultar{
+    font-size: large;
+    gap: 2%;
+    display: inline-block;
+    margin: 2%;
+    padding: 2%;
+    background-color: $background-color-tertiary;
+    border-radius: 15%;
+}

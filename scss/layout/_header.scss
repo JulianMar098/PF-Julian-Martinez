@@ -12,7 +12,10 @@
     gap: 5px;
 }
 .a_style{
+    display: inline-block;
+    gap: 2%;
     background-color: $background-color-tertiary;
+    border-radius: 10%;
 }
 .a_style:link{
     color: $background-color-fourth;

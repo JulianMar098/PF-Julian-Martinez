@@ -27,7 +27,9 @@
         <h1>Contacto</h1>
     </header>
     <main class="formulario_container">
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="subject" 
+            value="Sales inquiry from mysitename.netlify.app" />
             <div class="labels_inputs">
                 <div class="nombre_apellido">
                     <label for="nombre y apellido">Nombre y Apellido</label>
@@ -44,6 +46,8 @@
                 <div class="mensaje">
                     <label for="mensaje">Mensaje</label>
                     <textarea name="mensaje" id="mensaje" cols="110" rows="7">Mensaje</textarea>
+                </div>
+                <div class="enviar">
                     <input type="submit" name="enviar" id="enviar">
                 </div>
             </div>

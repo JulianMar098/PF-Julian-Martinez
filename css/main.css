@@ -55,7 +55,10 @@ body {
 }
 
 .a_style {
+  display: inline-block;
+  gap: 2%;
   background-color: rgb(200, 233, 109);
+  border-radius: 10%;
 }
 
 .a_style:link {
@@ -223,6 +226,14 @@ a:visited {
 .formulario_container .labels_inputs .mensaje input {
   display: none;
 }
+.formulario_container .labels_inputs .enviar {
+  border-radius: 4% 4% 4% 4%;
+  padding: 1%;
+  font-size: large;
+  text-align: center;
+  width: 100%;
+  grid-column: 1/span 2;
+}
 .formulario_container .labels_inputs input[type=text], .formulario_container .labels_inputs input[type=email], .formulario_container .labels_inputs input[type=number], .formulario_container .labels_inputs textarea {
   width: calc(100% - 40px);
   padding: 10px;
@@ -281,6 +292,16 @@ a:visited {
 .foto_y_ves_saint_laurent_producto, .foto_versace_eros_producto, .foto_one_millon_producto, .foto_invictus_elixir_producto, .foto_calvin_klein_unisex_producto, .foto_212_producto {
   height: 350px;
   width: 350px;
+}
+
+.boton_consultar {
+  font-size: large;
+  gap: 2%;
+  display: inline-block;
+  margin: 2%;
+  padding: 2%;
+  background-color: rgb(200, 233, 109);
+  border-radius: 15%;
 }
 
 footer {
