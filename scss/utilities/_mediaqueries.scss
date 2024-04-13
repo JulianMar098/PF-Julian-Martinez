@@ -179,6 +179,12 @@
 }
 
 @media(min-width:480px) and (max-width:768px){
+    .a_style{
+        display: inline-block;
+        gap: 2%;
+        background-color: $background-color-tertiary;
+        border-radius: 10%;
+    }
     .descripcion_main{
         position: static;
     }

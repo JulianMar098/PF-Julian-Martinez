@@ -12,3 +12,11 @@ footer{
         display: flex;
     }
 }
+
+.footer_instagram, .footer_facebook, .footer_twitter, .footer_whatsapp{
+    display: inline-block;
+    margin: 0.25%;
+    padding: 0.25%;
+    border-radius: 10%;
+    background-color: $background-color-tertiary;
+}

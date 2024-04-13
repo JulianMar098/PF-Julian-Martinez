@@ -57,7 +57,7 @@ body {
 .a_style {
   display: inline-block;
   gap: 2%;
-  background-color: rgb(200, 233, 109);
+  background-color: rgb(220, 245, 153);
   border-radius: 10%;
 }
 
@@ -296,11 +296,10 @@ a:visited {
 
 .boton_consultar {
   font-size: large;
-  gap: 2%;
   display: inline-block;
   margin: 2%;
   padding: 2%;
-  background-color: rgb(200, 233, 109);
+  background-color: rgb(220, 245, 153);
   border-radius: 15%;
 }
 
@@ -316,6 +315,14 @@ footer {
 }
 .footer .redes {
   display: flex;
+}
+
+.footer_instagram, .footer_facebook, .footer_twitter, .footer_whatsapp {
+  display: inline-block;
+  margin: 0.25%;
+  padding: 0.25%;
+  border-radius: 10%;
+  background-color: rgb(220, 245, 153);
 }
 
 @media (max-width: 1024px) {
@@ -488,6 +495,12 @@ footer {
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
+  .a_style {
+    display: inline-block;
+    gap: 2%;
+    background-color: rgb(220, 245, 153);
+    border-radius: 10%;
+  }
   .descripcion_main {
     position: static;
   }
