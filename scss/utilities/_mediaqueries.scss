@@ -22,7 +22,7 @@
     .producto_one_million_descripcion, 
     .producto_y_ves_saint_laurent_descripcion {
         grid-template-columns: 1fr; 
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .texto_producto_versace_eros, 
@@ -44,6 +44,11 @@
     .foto_212_producto {
         height: 300px;
         width: 300px;
+    }
+    .lista_de_marcas{
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
     }
 }
 
