@@ -27,7 +27,9 @@
         <h1>Contacto</h1>
     </header>
     <main class="formulario_container">
-        <form autocomplete="off" netlify>
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="subject" 
+            value="Sales inquiry from main--essence-proyecto.netlify.app" />
             <div class="labels_inputs">
                 <div class="nombre_apellido">
                     <label for="nombre y apellido">Nombre y Apellido</label>
