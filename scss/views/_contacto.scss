@@ -33,14 +33,6 @@
         .mensaje input {
             display: none;
         }
-        .enviar{
-            border-radius: 4% 4% 4% 4%;
-            padding: 1%;
-            font-size: large;
-            text-align: center;
-            width: 100%;
-            grid-column: 1 / span 2;
-        }
         input[type="text"], input[type="email"], input[type="number"], textarea {
             width: calc(100% - 40px);
             padding: 10px;

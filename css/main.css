@@ -226,14 +226,6 @@ a:visited {
 .formulario_container .labels_inputs .mensaje input {
   display: none;
 }
-.formulario_container .labels_inputs .enviar {
-  border-radius: 4% 4% 4% 4%;
-  padding: 1%;
-  font-size: large;
-  text-align: center;
-  width: 100%;
-  grid-column: 1/span 2;
-}
 .formulario_container .labels_inputs input[type=text], .formulario_container .labels_inputs input[type=email], .formulario_container .labels_inputs input[type=number], .formulario_container .labels_inputs textarea {
   width: calc(100% - 40px);
   padding: 10px;
