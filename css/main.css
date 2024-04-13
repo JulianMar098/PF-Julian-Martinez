@@ -163,6 +163,7 @@ a:visited {
   font-family: Roboto Mono;
 }
 .main_acerca_nosotros .acerca_nosotros {
+  align-items: center;
   text-align: center;
   display: flex;
 }
@@ -176,6 +177,7 @@ a:visited {
   height: 50%;
 }
 .main_acerca_nosotros .acerca_nosotros_dos {
+  align-items: center;
   text-align: center;
   display: flex;
 }
