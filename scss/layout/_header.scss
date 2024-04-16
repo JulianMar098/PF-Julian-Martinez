@@ -1,3 +1,14 @@
+.menu_hamburguesa{
+    display: none;
+}
+.dropdown-item{
+    background-color: $background-color-seventh;
+}
+.nav-link{
+    background-color: $background-color-seventh;
+    border: 1px black solid;
+    border-radius: 5%;
+}
 .header_style{
     text-align: center;
     background-color: $background-color-secondary;
@@ -12,6 +23,7 @@
     gap: 5px;
 }
 .a_style{
+    border: 1px rgb(132, 161, 65) solid;
     display: inline-block;
     gap: 2%;
     background-color: $background-color-tertiary;

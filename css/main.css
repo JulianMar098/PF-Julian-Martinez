@@ -39,6 +39,20 @@ body {
   min-height: 100vh;
 }
 
+.menu_hamburguesa {
+  display: none;
+}
+
+.dropdown-item {
+  background-color: rgb(214, 214, 181);
+}
+
+.nav-link {
+  background-color: rgb(214, 214, 181);
+  border: 1px black solid;
+  border-radius: 5%;
+}
+
 .header_style {
   text-align: center;
   background-color: beige;
@@ -55,6 +69,7 @@ body {
 }
 
 .a_style {
+  border: 1px rgb(132, 161, 65) solid;
   display: inline-block;
   gap: 2%;
   background-color: rgb(220, 245, 153);
@@ -294,10 +309,13 @@ a:visited {
 
 .boton_consultar {
   font-size: large;
+  font-family: Roboto Mono;
+  font-weight: bold;
   display: inline-block;
+  border: 2px rgb(132, 161, 65) solid;
   margin: 2%;
   padding: 2%;
-  background-color: rgb(220, 245, 153);
+  background-color: rgba(192, 255, 20, 0.295);
   border-radius: 15%;
 }
 
@@ -316,6 +334,7 @@ footer {
 }
 
 .footer_instagram, .footer_facebook, .footer_twitter, .footer_whatsapp {
+  border: 1px rgb(132, 161, 65) solid;
   display: inline-block;
   margin: 0.25%;
   padding: 0.25%;
@@ -502,6 +521,15 @@ footer {
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
+  .menu_hamburguesa {
+    display: block;
+  }
+  .container-fluid {
+    background-color: beige;
+  }
+  .navbar_mio {
+    display: none;
+  }
   .a_style {
     display: inline-block;
     gap: 2%;
@@ -542,6 +570,15 @@ footer {
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+  .menu_hamburguesa {
+    display: block;
+  }
+  .container-fluid {
+    background-color: beige;
+  }
+  .navbar_mio {
+    display: none;
+  }
   .ul_style {
     flex-direction: column;
   }

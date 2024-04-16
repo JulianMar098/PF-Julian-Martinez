@@ -188,6 +188,15 @@
 }
 
 @media(min-width:480px) and (max-width:768px){
+    .menu_hamburguesa{
+        display: block;
+    }
+    .container-fluid{
+        background-color: $background-color-secondary;
+    }
+    .navbar_mio{
+        display: none;
+    }
     .a_style{
         display: inline-block;
         gap: 2%;
@@ -229,6 +238,15 @@
 }
 
 @media(min-width:320px) and (max-width:480px){
+    .menu_hamburguesa{
+        display: block;
+    }
+    .container-fluid{
+        background-color: $background-color-secondary;
+    }
+    .navbar_mio{
+        display: none;
+    }
     .ul_style{
         flex-direction: column;
     }

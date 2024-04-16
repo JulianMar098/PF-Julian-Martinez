@@ -17,9 +17,12 @@
 }
 .boton_consultar{
     font-size: large;
+    font-family: Roboto Mono;
+    font-weight: bold;
     display: inline-block;
+    border: 2px rgb(132, 161, 65) solid;
     margin: 2%;
     padding: 2%;
-    background-color: $background-color-tertiary;
+    background-color: $background-color-sixth;
     border-radius: 15%;
 }
