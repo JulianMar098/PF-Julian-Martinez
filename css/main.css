@@ -53,6 +53,11 @@ body {
   border-radius: 5%;
 }
 
+.navbar-nav .dropdown-menu {
+  background-color: rgb(214, 214, 181);
+  border: 1px black solid;
+}
+
 .header_style {
   text-align: center;
   background-color: beige;

@@ -9,6 +9,10 @@
     border: 1px black solid;
     border-radius: 5%;
 }
+.navbar-nav .dropdown-menu {
+    background-color: $background-color-seventh;
+    border: 1px black solid;
+}
 .header_style{
     text-align: center;
     background-color: $background-color-secondary;
